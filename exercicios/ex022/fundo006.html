@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo 006</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
+            /*=========================================
             background-color: black;
             background-image: url(./imagens/IMG_20220716_125438.jpg);
             background-position: center center;
-            background-repeat:no-repeat;
+            background-repeat:repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            ===============================================
+            */
+            /*=========================================
+              Shorthand - background
+              color  / image / position / repeat /size /attachment
+            =============================================
+            */
+            /*=================================================
+            essa shorthand funciona, menos com o backgroung-size, pelo menos por enquanto, então o background-size tem que ser usado separadamente
+            ====================================================
+            */
+
+
+            background: black url(./imagens/IMG_20220716_125438.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding:10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +44,18 @@
     <main>
         <h1>teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam veritatis reprehenderit at quaerat quam, rem modi id ut, nihil dicta eligendi blanditiis earum porro cum excepturi quibusdam harum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet non dolor aut corporis modi ipsam, consectetur nemo quos doloribus mollitia ratione atque, dolores cum repellendus saepe hic voluptates enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat eveniet, asperiores fugit, saepe molestias porro, consectetur aliquid possimus expedita quaerat dolorem? Deserunt quis doloribus soluta omnis, iusto praesentium reprehenderit!</p>
+
     </main>
 </body>
 </html>
