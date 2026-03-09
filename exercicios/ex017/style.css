@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+  background-image: linear-gradient(to right, #47478a96, #2c832c96);
+  font-family: arial;  
+}
+/* shorthand font (ordem a ser seguida)
+-font-style - font-weight - font-size - font-family
+*/
+h1{
+  font: italic bolder 2.5em 'arial', sans-serif;
+}
+h2{
+  font: bolder 2em 'arial', sans-serif;
+}
+p{
+  color: white;
+  font: size 14px;;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 20px;
+  font-weight: lighter;
+}

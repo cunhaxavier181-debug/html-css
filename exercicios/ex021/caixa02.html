@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(105, 105, 105, 0.514);
+            margin: 0px;
+            border-radius: 10px;
+        }
+        header{
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+        main{
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 20px 5px 20px 5px;
+        }
+        
+        article{
+            background-color: lightgray;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        article>aside{
+            background-color: rgb(161, 159, 159);
+            text-align: right;
+        }
+        article>aside p{
+            color: white;
+            margin-right: 5px;
+        }
+        nav{
+            background-color: rgb(117, 115, 115);
+            padding: 3px;
+            box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.308);
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: none;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <header><!--CABEÇALHO-->
+        <h1>Meu site</h1>
+        <nav><!--NAVEGAÇÃO DO MENU-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav><!--FIM DA NAVEGAÇÃO DO MENU-->
+    </header><!-- FIM DO CABEÇALHO-->
+    <main><!--CORPO-->
+        <section id="assuntos"><!--SEÇÃO ASSUNTOS-->
+            <P>Esportes, políticas e Tecnologia</P>
+        </section><!--FIM DA SEÇÃO ASSUNTOS-->
+        <section id="noticias"><!--SEÇÃO NOTÍCIAS-->
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nihil, totam velit consequatur fugiat quisquam exercitationem, magni voluptatem quidem sint ipsam quaerat id? Cumque at nemo ut illum labore molestiae.</p>
+                <aside>
+                    <p>Artigo escrito por Marcos venicio</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section><!--FIM DA SEÇÃO NOTÍCIAS-->
+    </main><!--FIM DO CORPO-->
+    <footer><!--RODAPÉ-->
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer><!--FIM DO RODAPÉ-->
+</body>
+</html>
