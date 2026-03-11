@@ -11,6 +11,7 @@
        table{
         width: 450px;
         border-collapse: collapse;
+        position: relative;
        }
        td,th{
         border: 1px solid black;
@@ -34,6 +35,11 @@
        tbody tr:nth-child(2n){
         background-color: lightgray;
         font-weight: bold;
+       }
+       thead>tr>th{
+        position: sticky;
+        top: -1px;
+        background-color:gray ;
        }
     </style>
 </head>
