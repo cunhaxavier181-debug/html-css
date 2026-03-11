@@ -43,3 +43,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <a href="https://cunhaxavier181-debug.github.io/html-css/exercicios/ex020/index.html">Executar o exercicio 020</a>
 
 <a href="https://cunhaxavier181-debug.github.io/html-css/exercicios/ex021/index.html">Executar o exercicio 021</a>
+
+<a href="https://cunhaxavier181-debug.github.io/html-css/exercicios/ex022/index.html">Executar o exercicio 022</a>
+
+<a href="https://cunhaxavier181-debug.github.io/html-css/exercicios/ex023/index.html">Executar o exercicio 023</a>
