@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 014</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+      border-collapse: collapse;
+    }
+        th, td{
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    th, td#nota{
+      background-color: gray;
+      font-weight: bold;
+      color: white;
+    }
+    th#area{
+      background-color: white;
+      color: black;
+    }
+    td#media{
+      color: white;
+      background-color: gray;
+    }
+    th#total{
+      text-align: left;
+    }
+    td#materia{
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <th rowspan="2" scope="colgroup">Área</th>
+        <th rowspan="2" scope="colgroup">Disciplinas</th>
+        <th colspan="2" scope="colgroup">Notas</th>
+        <th rowspan="2" scope="colgroup">Média</th>
+        <tr>
+          <td id="nota">Nota 1</td>
+          <td id="nota">Nota 2</td>
+        </tr>      
+      </tr>
+      <tr>
+        <th rowspan="4" scope="rowgroup" id="area">Exatas</th>
+          <td id="materia">Matemática</td>
+          <td>00</td>
+          <td>00</td>
+          <td>00</td>
+          <tr>
+            <td id="materia">Física</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+          </tr>
+          <tr>
+            <td id="materia">Química</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+          </tr>
+          <tr>
+            <td id="materia">Biologia</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+          </tr>
+      </tr>
+      <tr>
+        <th colspan="4" scope="col" id="total">Média de Exatas</th>
+        <td id="media">00</td>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="rowgroup" id="area">Humanas</th>
+        <td id="materia">História</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <tr>
+          <td>Geografia</td>
+          <td>00</td>
+          <td>00</td>
+          <td>00</td>
+        </tr>
+      </tr>
+      <tr>
+        <th colspan="4" scope="col" id="total">Média de Humanas</th>
+        <td id="media">00</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
