@@ -1,53 +1,53 @@
-@charset"UTF-8";
+@charset "UTF-8";
 
-h1{
+h1 {
   font-size: 3em;
 }
-.mapa-mundi{
+.mapa-mundi {
   list-style: none;
   width: 500px;
   margin-left: -30px;
 }
-.mapa-mundi li{
+.mapa-mundi li {
   float: left;
   width: 150px;
   height: 89px;
   margin: 0px;
-  border:1px solid white;
+  border: 1px solid white;
 }
-#mapa01{
-  background: url('imagens/mapa03.png');
+#mapa01 {
+  background: url("imagens/mapa03.png");
   background-size: 150px 89px;
 }
-#mapa02{
-  background: url('imagens/mapa07.png');
+#mapa02 {
+  background: url("imagens/mapa07.png");
   background-size: 150px 89px;
 }
-#mapa03{
-  background: url('imagens/mapa05.png');
+#mapa03 {
+  background: url("imagens/mapa05.png");
   background-size: 150px 89px;
 }
-#mapa04{
-  background: url('imagens/mapa09.png');
+#mapa04 {
+  background: url("imagens/mapa09.png");
   background-size: 150px 89px;
 }
-#mapa05{
-  background: url('imagens/mapa01.png');
+#mapa05 {
+  background: url("imagens/mapa01.png");
   background-size: 150px 89px;
 }
-#mapa06{
-  background: url('imagens/mapa08.png');
+#mapa06 {
+  background: url("imagens/mapa08.png");
   background-size: 150px 89px;
 }
-#mapa07{
-  background: url('imagens/mapa06.png');
+#mapa07 {
+  background: url("imagens/mapa06.png");
   background-size: 150px 89px;
 }
-#mapa08{
-  background: url('imagens/mapa02.png');
+#mapa08 {
+  background: url("imagens/mapa02.png");
   background-size: 150px 89px;
 }
-#mapa09{
-  background: url('imagens/mapa04.png');
+#mapa09 {
+  background: url("imagens/mapa04.png");
   background-size: 150px 89px;
 }
